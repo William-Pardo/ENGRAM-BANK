@@ -1,0 +1,14 @@
+# Keep exported sync chunks in git.
+!.engram/
+!.engram/**
+
+# Never commit the live Engram SQLite database.
+engram.db
+engram.db-shm
+engram.db-wal
+data/
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db
+*.log
